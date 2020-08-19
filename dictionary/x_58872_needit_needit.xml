@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Tabla del DocID" max_length="50" name="campo_del_docid" type="string"/>
+        <element attributes="show_all_tables" choice_field="preferred_language" dependent="campo_del_docid" dependent_on_field="campo_del_docid" label="Document ID" max_length="50" name="document_id" type="document_id" use_dependent_field="true"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
