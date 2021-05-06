@@ -20,7 +20,11 @@
         <roles>x_58872_needit.needit_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
+<<<<<<< HEAD:update/sys_app_module_0985adaedb9a1010143f0181ca961972.xml
         <sys_created_on>2020-08-01 05:28:55</sys_created_on>
+=======
+        <sys_created_on>2017-01-25 01:01:22</sys_created_on>
+>>>>>>> workflow:update/sys_app_module_4fdfc45d0fe83200cd674f8ce1050e27.xml
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0985adaedb9a1010143f0181ca961972</sys_id>

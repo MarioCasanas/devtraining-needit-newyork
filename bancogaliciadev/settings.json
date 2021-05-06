@@ -1,5 +1,9 @@
 {
     "name": "bancogaliciadev",
     "url": "https://bancogaliciadev.service-now.com",
+<<<<<<< HEAD
     "g_ck": "3767e7a71b6fec1071d26570604bcb716e9f618cd821994aec497b8ed6b5ed3ffe6036f4"
+=======
+    "g_ck": "d59835d5db3b989041afca7e3b9619df69681d544b40cdb7cd576f7b4c249d987ec42af8"
+>>>>>>> workflow
 }

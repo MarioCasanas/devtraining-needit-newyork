@@ -1,5 +1,9 @@
 {
     "name": "dev56451",
     "url": "https://dev56451.service-now.com",
+<<<<<<< HEAD
     "g_ck": "e753357f077be0103ebaf85c7c1ed0f5a4c784e42fea60d881aef29aaf182abb0e488cb1"
+=======
+    "g_ck": "8ce5f1dddb3f5010143f0181ca96191a921d524111057899787ae402369b303f8e2c0c54"
+>>>>>>> workflow
 }

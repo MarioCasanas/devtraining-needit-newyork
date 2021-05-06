@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
+<<<<<<< HEAD:update/sys_ui_form_sections_6dd3b16adbda1010143f0181ca9619d4.xml
     <sys_ui_form_sections form_id="6dd3b16adbda1010143f0181ca9619d4" sys_domain="global" table="x_58872_needit_needit" version="3">
+=======
+    <sys_ui_form_sections form_id="a52925f50fa03200cd674f8ce1050e28" sys_domain="global" table="x_58872_needit_needit" version="3">
+>>>>>>> workflow:update/sys_ui_form_sections_a52925f50fa03200cd674f8ce1050e28.xml
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
@@ -47,7 +51,11 @@
             <roles/>
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>admin</sys_created_by>
+<<<<<<< HEAD:update/sys_ui_form_sections_6dd3b16adbda1010143f0181ca9619d4.xml
             <sys_created_on>2020-08-01 06:21:47</sys_created_on>
+=======
+            <sys_created_on>2017-01-26 20:42:50</sys_created_on>
+>>>>>>> workflow:update/sys_ui_form_sections_a52925f50fa03200cd674f8ce1050e28.xml
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6dd3b16adbda1010143f0181ca9619d4</sys_id>

@@ -131,7 +131,10 @@ DXCFeatureUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 		var urlOnStack = '';
 		var gu = new GlideURL(table_name+'.do');
 		gu.set('sys_id', sysId);
+<<<<<<< HEAD
 		
+=======
+>>>>>>> workflow
 		var createdChangeUrl = gu.toString();
 		urlOnStack = createdChangeUrl;
 		return urlOnStack;

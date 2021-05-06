@@ -7,7 +7,11 @@
         <roles>x_58872_needit.needit_user</roles>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
+<<<<<<< HEAD:update/sys_ui_application_6610ad6adb9a1010143f0181ca961977.xml
         <sys_created_on>2020-08-01 04:55:33</sys_created_on>
+=======
+        <sys_created_on>2017-01-24 22:46:33</sys_created_on>
+>>>>>>> workflow:update/sys_ui_application_42427f010fe83200cd674f8ce1050e42.xml
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6610ad6adb9a1010143f0181ca961977</sys_id>

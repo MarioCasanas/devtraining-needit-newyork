@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
+<<<<<<< HEAD:update/sys_ui_section_750ef122db1e1010143f0181ca9619a2.xml
     <sys_ui_section caption="Stadistics" section_id="750ef122db1e1010143f0181ca9619a2" sys_domain="global" table="x_58872_needit_needit" version="3" view="">
+=======
+    <sys_ui_section caption="Statistics" section_id="040b61390fa03200cd674f8ce1050e07" sys_domain="global" table="x_58872_needit_needit" version="3" view="">
+>>>>>>> workflow:update/sys_ui_section_040b61390fa03200cd674f8ce1050e07.xml
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_at</element>
             <position>0</position>
@@ -119,7 +123,11 @@
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
+<<<<<<< HEAD:update/sys_ui_section_750ef122db1e1010143f0181ca9619a2.xml
             <sys_created_on>2020-08-01 07:06:19</sys_created_on>
+=======
+            <sys_created_on>2017-01-26 20:50:56</sys_created_on>
+>>>>>>> workflow:update/sys_ui_section_040b61390fa03200cd674f8ce1050e07.xml
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>750ef122db1e1010143f0181ca9619a2</sys_id>
