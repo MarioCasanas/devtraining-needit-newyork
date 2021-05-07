@@ -1,9 +1,5 @@
 var BGStoryUtils = Class.create();
 BGStoryUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
-<<<<<<< HEAD
-	
-=======
->>>>>>> workflow
 	//Properties Safe
     COPY_ATTACHMENTS_SAFE : 'bg.safe_story.copy.attachments',
 	FIELDS_TO_COPY_SAFE : 'bg.safe_story.copy.fields',
@@ -29,13 +25,10 @@ BGStoryUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 				}
 			}
 			var copy_id = gr_copy.insert();
-<<<<<<< HEAD
 
 			//Copy Checklist
 			this._copyChecklist_ChecklistItem(gr_original.sys_id, copy_id);
 
-=======
->>>>>>> workflow
 			//Copy related scrum tasks
 			var scrum_task_table_name = table_name=="sn_safe_story" ? "sn_safe_scrum_task" : "rm_scrum_task";
 			this._copyScrumTasks(gr_original.sys_id, copy_id, scrum_task_table_name);
@@ -55,11 +48,7 @@ BGStoryUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 		var gr_sc_source= new GlideRecord(scrum_table_name);
 		gr_sc_source.addQuery(parent_field,story_id);
 		gr_sc_source.query();
-<<<<<<< HEAD
 		if(gr_sc_source.getRowCount() == 0) {
-=======
-		if(gr_sc_source.getRowCount() == 0){
->>>>>>> workflow
 			this._logInfo("The story doesn´t have scrum tasks");
 		} else {
 			while(gr_sc_source.next()){
@@ -76,7 +65,6 @@ BGStoryUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 					this._logError("field "+field+" doesn´t exist on table "+ scrum_table_name);
 				}
 			}
-<<<<<<< HEAD
 			var copy_id = gr_sc_copy.insert();
 
 				//Copy Checklist_item
@@ -168,13 +156,7 @@ BGStoryUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 			var message = error.message;
 			gs.error("Copy checklist y chelist_item - Error: " + message);
 		}
-	},		
-=======
-				gr_sc_copy.insert();
-			}
-		}
 	},
->>>>>>> workflow
 	_getRedirectURL: function(sysId, table_name) {
 		var urlOnStack = '';
 		var gu = new GlideURL(table_name+'.do');
@@ -191,12 +173,7 @@ BGStoryUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 	},
 	_logInfo: function(info){
 		gs.error("BGStoryUtils - " + info);
-<<<<<<< HEAD
 	},
 
-=======
-	}
-	,
->>>>>>> workflow
     type: 'BGStoryUtils'
 });
