@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 19:28:14</sys_created_on>
-            <sys_id>4a125be6073f20103ebaf85c7c1ed0cc</sys_id>
+            <sys_id>3e5bf00c074034103ebaf85c7c1ed0da</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_name>u_request_type</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -25,6 +25,7 @@
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 19:28:14</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -44,6 +45,7 @@
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 19:28:14</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -63,6 +65,7 @@
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 19:28:14</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -82,6 +85,7 @@
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 19:28:14</sys_created_on>
             <sys_domain>global</sys_domain>
