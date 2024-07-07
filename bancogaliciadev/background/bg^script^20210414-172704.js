@@ -321,9 +321,6 @@ var graboBreakdownCalculado = function (partidaActual, varEjercicio, arrayMeses)
 /* Proceso para Actualizar la Tabla cost_plan_breakdown
 /************************************************************************************* */
 
-        //Ciclo ORIGINAL con el Do-While()
-
-
 try {
     //Filtro las Partidas que Tengan Proyectos y sean del día de Hoy.
     var grpardidasPendientes = new GlideAggregate('u_dxc_temp_breakdown'); //GlideAggregate query
